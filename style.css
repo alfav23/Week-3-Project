@@ -1,4 +1,4 @@
-h1, h3, p {
+h1, h2, h3, p {
     color: rgb(255, 191, 106);
 }
 .btn-orange {
@@ -7,6 +7,26 @@ h1, h3, p {
 .btn-red {
     background-color: rgb(243, 51, 37);
 }
-.card {
-    align-items: center;
+.btn-green {
+    background-color: rgb(86, 179, 128);
+}
+.row {
+    justify-content: center;
+}
+table, th, tr, td {
+    justify-content: center;
+    border-style: solid;
+    border-color: rgb(255, 191, 106);
+    border-width: 2px;
+    padding: 5rem;
+    margin: 5rem;
+}
+form {
+    justify-content: center;
+    text-align: center;
+}
+hr {
+    border-style: solid;
+    border-color: rgb(255, 191, 106);
+    margin-top: 10rem;
 }

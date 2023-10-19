@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OTGW Fan Page</title>
+    <title>OTGW</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="./style.css">
 </head>
@@ -17,30 +17,64 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="index.html">Summary</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
+                    <a class="nav-link" href="about.html">Comparison to Dante's Inferno</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="table.html">Character Parallels</a>
                 </li>
             </ul>
         </div>
     </nav>
-    <div class="container mb-5">
+    <div class="container mb-5 mt-5">
         <img 
-        src="Images/otgw banner.jpg" 
+        src="Images/tumblr_d2f5bc1ba49bfbb969af1e7a7307229b_0c4f201a_1280.jpg" 
         class="img-fluid" 
         alt="OTGW banner" 
-        width="1200"></img>
+        width="1500">
     </div>
-    <h1 class="text-center mb-5">Over The Garden Wall Fan Page</h1>
+    <h1 class="text-center mb-5">Over The Garden Wall</h1>
     <h3 class="text-center">The Show</h3>
-    <p class="text-center">Over the Garden Wall is the perfect fall show for kids and adults alike. Loosely based on Dante's Inferno, this 10-episode animated mini-series serves up 
-        loveable and well-crafted characters, mysterious circumstances, and underlying motives of self-reflection and discovery, all before a cozy yet spooky fall backdrop.</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <p class="text-center">Over the Garden Wall is the perfect fall show for kids and adults alike. Loosely based on Dante's Inferno, this 10-episode animated 
+                    mini-series serves up loveable and well-crafted characters, mysterious circumstances, and underlying motifs of self-reflection and discovery, 
+                    all before a cozy yet spooky fall backdrop.</p>
+            </div>
+        </div>
+    </div>   
     <h3 class="text-center">Summary</h3>
-    <p class="text-center">Two half-brothers, Wirt and Greg, embark on a journey to escape the labyrinthe woods that they find themselves lost in, all while avoiding "The Beast", 
-        a vague evil that an eccentric woodsman warns the boys of after wandering upon his isolated cabin. On their way, they meet a village of suspicious and cult-like 
-        pumpkin-people, a talking blue-bird who promises to help them return home for seemingly nothing in exchange, and several other odd characters who the pair finds are all 
-        suffering in their own way. Should they trust the woodsman? How did they manage to get lost in the first place? Will they be stuck in this dream-like "Purgatory" forever? 
-        What should Greg name his newly-adopted pet frog?</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10">
+                <p class="text-center">Two half-brothers, Wirt and Greg, embark on a journey to escape the labyrinthine woods that they find themselves lost in, all while avoiding 
+                    "The Beast", a vague evil that an eccentric woodsman warns the boys of after wandering upon his isolated cabin. On their way, they meet a village of suspicious 
+                    and cult-like pumpkin-people, a talking blue-bird who promises to help them return home for seemingly nothing in exchange, and several other odd characters who 
+                    the pair finds are all suffering in their own way. Should they trust the woodsman? How did they manage to get lost in the first place? 
+                    Will they be stuck in this dream-like "Purgatory" forever? What should Greg name his newly-adopted pet frog?</p>
+            </div>
+        </div>
+    </div>
+    <div>
+        <hr>
+        <form action="#choice">
+            <h2 class="text-light m-5">What is your name?</h2>
+            <input type="text" name="firstName" placeholder="First Name">
+            <input type="text" name="lastName" placeholder="Last Name">
+            <input type="submit" value="SUBMIT">
+            <br>
+            <h2 class="text-light m-5" id="choice">Who's your favorite character?</h2>
+            <a href="about.html#card5" class="btn btn-green">Greg's Pet Frog</a>
+            <a href="about.html#card2" class="btn btn-red">Wirt</a>
+            <a href="about.html#card1" class="btn btn-orange">Greg</a>
+            <a href="about.html#card3" class="btn btn-secondary">The Beast</a>
+        </form>
+    </div>
 </body>
+<br>
+<br>
+<footer class="text-center text-light m-5">Alyssa Favorito ©️2023</footer>
 </html>
