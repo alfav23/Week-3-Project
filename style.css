@@ -1,0 +1,12 @@
+h1, h3, p {
+    color: rgb(255, 191, 106);
+}
+.btn-orange {
+    background-color: rgb(255, 191, 106);
+}
+.btn-red {
+    background-color: rgb(243, 51, 37);
+}
+.card {
+    align-items: center;
+}
