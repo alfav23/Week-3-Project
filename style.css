@@ -1,27 +1,39 @@
+/* MAKE ALL TEXT ORANGE */
 h1, h2, h3, p {
     color: rgb(255, 191, 106);
 }
+/* MAKE MY OWN ORANGE BUTTON */
 .btn-orange {
     background-color: rgb(255, 191, 106);
 }
+/* MAKE THE ORANGE BUTTON TURN SLIGHTLY DARKER WHEN HOVERING/CLICKING */
 .btn-orange:hover {
     background-color: rgb(212, 159, 90);
 }
+/* RED BUTTON */
 .btn-red {
     background-color: rgb(243, 51, 37);
 }
+/* SLIGHTLY DARKER WHEN HOVERING */
 .btn-red:hover {
     background-color: rgb(202, 40, 28); ;   
 }
+/* GREEN BUTTON AND HOVER */
 .btn-green {
     background-color: rgb(86, 179, 128);
 }
 .btn-green:hover {
     background-color: rgb(70, 148, 105) ;
 }
+/* TRYING TO CENTER MY ROWS TO MAKE CARDS CENTERED ON ABOUT PAGE*/
 .row {
     justify-content: center;
 }
+.center {
+    display: flex;
+    justify-content: center;
+}
+/* STYLING TABLE TO HAVE ORANGE BORDERS */
 table, th, tr, td {
     justify-content: center;
     border-style: solid;
@@ -30,21 +42,19 @@ table, th, tr, td {
     padding: 5rem;
     margin: 5rem;
 }
+/* CENTERING FORM ELEMENTS */
 form {
     justify-content: center;
     text-align: center;
 }
+/* STYLING HORIZONTAL RULE */
 hr {
     border-style: solid;
     border-color: rgb(255, 191, 106);
 }
+/* SETTING SIZE OF CARD AND SPACING */
 .card {
     width: 30rem;
     height: auto;
     margin-bottom: 16px;
-}
-
-.center {
-    display: flex;
-    justify-content: center;
 }

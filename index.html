@@ -1,20 +1,27 @@
+<!-- BOILERPLATE -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OTGW</title>
+    <!-- LINKING BOOTSTRAP STYLING SHEET AND OWN STYLE SHEET -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="./style.css">
 </head>
+<!-- USED DARK BACKGROUND FOR MY THEME -->
 <body class="bg-dark">
+    <!-- CREATING A NAVIGATION BAR TO NAVIGATE LINKS ON MY PAGE -->
     <nav class="navbar navbar-expand-sm navbar-dark bg-secondary">
+        <!-- OTGW FOR OVER THE GARDEN WALL SINCE MY PAGE IS ABOUT THIS SHOW -->
         <a class="navbar-brand text-light" href="index.html">OTGW</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 
-        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- CODE FOR HAMBURGER MENU TO POP UP WHEN SCREEN IS SMALLER PUSHING NAV LINKS INTO DROP DOWN -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" 
+        aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-        </button>
+          </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <!-- UNORDERED LIST TO DISPLAY NAVIGATION ITEMS AND LINK THEM TO THEIR RESPECTIVE PAGES -->
             <ul class="navbar-nav">
                 <li class="nav-item active">
                     <a class="nav-link" href="index.html">Summary</a>
@@ -28,6 +35,7 @@
             </ul>
         </div>
     </nav>
+    <!-- BANNER FOR MY HOME PAGE WITH SPACING ABOVE AND BELOW -->
     <div class="container mb-5 mt-5">
         <img 
         src="Images/tumblr_d2f5bc1ba49bfbb969af1e7a7307229b_0c4f201a_1280.jpg" 
@@ -35,8 +43,10 @@
         alt="OTGW banner" 
         width="1500">
     </div>
+    <!-- TITLE AND HEADINGS FOR HOME PAGE -->
     <h1 class="text-center mb-5">Over The Garden Wall</h1>
     <h3 class="text-center">The Show</h3>
+    <!-- USING BOOTSTRAP GRID TO PLACE TEXT WHERE I WANT IT -->
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
@@ -60,12 +70,14 @@
     </div>
     <div>
         <hr>
+        <!-- CREATING A FORM TO ALLOW USER TO INTERACT WITH WEB PAGE, SUBMIT BUTTON BRINGS USER DOWN TO MULTIPLE CHOICE SECTION  -->
         <form action="#choice">
             <h2 class="text-light m-5">What is your name?</h2>
             <input type="text" name="firstName" placeholder="First Name">
             <input type="text" name="lastName" placeholder="Last Name">
             <input class="btn btn-secondary" type="submit" value="SUBMIT">
             <br>
+            <!-- MULTIPLE CHOICE SECTION BUTTONS LINKED TO SPECIFIC CARDS ON ABOUT PAGE WITH THE CORRESPONDING CHARACTER THE USER CHOOSES -->
             <h2 class="text-light m-5" id="choice">Who's your favorite character?</h2>
             <a href="about.html#card5" class="btn btn-green">Greg's Pet Frog</a>
             <a href="about.html#card2" class="btn btn-red">Wirt</a>
@@ -73,8 +85,11 @@
             <a href="about.html#card3" class="btn btn-outline-secondary">The Beast</a>
         </form>
     </div>
+    <!-- LINKING JAVA SCRIPT -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 <br>
 <br>
+<!-- FOOTER CREDITS -->
 <footer class="text-center text-light m-5">Alyssa Favorito ©️2023</footer>
 </html>
