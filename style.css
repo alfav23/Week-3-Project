@@ -4,11 +4,20 @@ h1, h2, h3, p {
 .btn-orange {
     background-color: rgb(255, 191, 106);
 }
+.btn-orange:hover {
+    background-color: rgb(212, 159, 90);
+}
 .btn-red {
     background-color: rgb(243, 51, 37);
 }
+.btn-red:hover {
+    background-color: rgb(202, 40, 28); ;   
+}
 .btn-green {
     background-color: rgb(86, 179, 128);
+}
+.btn-green:hover {
+    background-color: rgb(70, 148, 105) ;
 }
 .row {
     justify-content: center;
@@ -28,5 +37,14 @@ form {
 hr {
     border-style: solid;
     border-color: rgb(255, 191, 106);
-    margin-top: 10rem;
+}
+.card {
+    width: 30rem;
+    height: auto;
+    margin-bottom: 16px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
 }
